@@ -1,0 +1,31 @@
+                          Documentation of Program Testing
+                        ------------------------------------
+
+                            ======Parsing Testing======
+    Parsing from the file was tested after every line was read in from the file.
+    The printf lines were placed directly after the sscanf line and ncurses was
+    not enabled until parsing was perfected. Before the variables were assigned,
+    the cases would have a printf that would print what it was to the screen.
+    After parsing branched information into different variables the printf's advanced
+    to hold the information that was just parsed into.
+
+                            ======Room Drawing Testing======
+    Drawing from the information that was parsed above was pretty simple. Due to the 
+    fact that the same drawing function is used for every room, no value is hardcoded 
+    into the function. Printf statements were used to make sure that if statements and
+    loops are executing correctly. 
+
+                            ======Hero Actions Testing  ======
+    Testing the input for the hero was a bit more challenging. Many if cases and switches
+    are used in there. Thus, many print statements were used to make sure that these are 
+    executing. After movement works print statements became obselete due to the fact that
+    the hero is moving and the errors are noticeable from the movement. 
+
+                            ======Room Input File Testing ======
+    Throught testing the program I used two files. One file would be the rooms with maximum
+    dimensions (fullTestRooms) and the other file was rooms with random dimensions and every
+    item possible (testRooms). Errors in the parsing and drawing were caught from either the
+    printf statements along the way as detailed above or by eyeballing the location of the 
+    items in the dungeon to the file. The second testing file was used the most due to it being
+    the obscure case with the most amount of variants. This file also has all the items popssible 
+    in the first five rooms. The sixth room is to make sure that its not reliable on
