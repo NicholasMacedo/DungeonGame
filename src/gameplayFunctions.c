@@ -1,5 +1,5 @@
 /**************************gameplayFunctions.c****************************
-Student Name: Nicholas Macedo - Van Horne    Student Number: 0889469
+Student Name: Nicholas Macedo              Student Number:
 Date: March 13th 2015                      Course Name: CIS2500
 I have exclusive control over this submission via my password.
 By including this statement in this header comment, I certify that:
