@@ -1,3 +1,0 @@
-Done processing src/parsingFunctions.c
-Total errors found: 0
-LOC: 107
